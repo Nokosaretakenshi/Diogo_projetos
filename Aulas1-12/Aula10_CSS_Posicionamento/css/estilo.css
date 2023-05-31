@@ -1,0 +1,49 @@
+body{
+    padding-bottom:1000px; /*Aumenta os espaço ao fim da página*/
+}
+
+
+div{ /*Static (definido por padrão) - Respeita o fluxo e não pode ter sua posição modificada.*/
+    background-color: rgb(224, 221, 221);
+    height: 50px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.relative{ /* Pode ser reposicionado de acordo com o fluxo html (bloco acima) e a esquerda.*/
+    background-color: rgb(74, 68, 68);
+    position: relative;
+    color: white;
+    top:20px;
+    left:20px;
+}
+
+.absolute{ /*Pode ser reposicionado de acordo com o seu bloco pai.*/
+    background-color: brown;
+    color: white;
+    position: absolute;
+    width:5%;
+    height:20px;
+    top:15px;
+    right:20px;
+}
+
+.fixed{ /* Posiciona-se de acordo com a tela - Não respeita o fluxo HTML. Acompanha o scroll do mouse, até o fim da página*/
+    background-color: yellow;
+    position:fixed;
+    width:5%;
+    height:20px;
+    top:20px;
+    left:20px;
+}
+
+.sticky{ /* Posiciona-se de maneira relativa e respeita o fluxo HTML. Acompanha o scroll do mouse, até o fim dos blocos.*/
+    position:sticky;
+    background-color: green;
+    color: white;
+    width:5%;
+    height:20px;
+    top:20px;
+    left:50%;
+    z-index: 2;
+}

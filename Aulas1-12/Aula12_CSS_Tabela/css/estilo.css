@@ -1,0 +1,69 @@
+body{
+    background-color:  rgb(150, 151, 153);
+    padding: 0;
+    margin:0;
+}
+
+.header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: green;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    text-size-adjust: auto;
+    border-bottom: 2px solid  yellow;
+}
+
+
+.main{
+    position: relative;
+    background-color: white;
+    width:80%;
+    top:0;
+    left:10%;
+    height: 500px;
+}
+
+.tabela {
+    position: absolute;
+    width: 80%; /* Define a largura da tabela */
+    left: 10%; /* Define a posição da tabela em relação ao lado esquerdo da página */
+    top: 80px; /* Define a posição da tabela em relação ao topo da página */
+    display: flex;
+    justify-content: center; /* Centraliza a tabela horizontalmente */
+    border-collapse: collapse; /* Remove as bordas entre as células da tabela */
+}
+
+.tabela table {
+    width: 90%; /* Define a largura da tabela dentro da div .tabela */
+    left: 10%; /* Define a posição da tabela em relação ao lado esquerdo da div .tabela */
+    background-color: rgb(214, 214, 214); /* Define a cor de fundo da tabela */
+    text-align: center; /* Centraliza o texto dentro das células da tabela */
+    color: rgb(8, 8, 8); /* Define a cor do texto dentro das células da tabela */
+}
+
+.tabela th,
+.tabela td {
+    border: 3px solid green; /* Define a largura e a cor das bordas das células da tabela */
+    font-size: 2vw; /* Define o tamanho da fonte do texto dentro das células da tabela */
+    padding: 15px; /* Define o espaço entre o texto e as bordas das células da tabela */
+    text-size-adjust: auto;
+}
+
+.tabela th {
+    color: green; /* Define a cor do texto dentro das células de cabeçalho da tabela */
+}
+
+.tabela tr:nth-child(even) {
+    background-color: #ababab; /* Define a cor de fundo das linhas pares da tabela */
+}
+
+.tabela tr:hover {
+    background-color: white; /* Define a cor de fundo das células da tabela ao passar o mouse por cima */
+}

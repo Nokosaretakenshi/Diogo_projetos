@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(58, 55, 55);
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    position: relative;
+    top: 0;
+    left:0;
+    background-color: rgb(16, 16, 184);
+    height: 150px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.logo1{
+    position:absolute;
+    left:10%;
+    top:10%;
+    width:10%;
+    height:80%;
+}
+
+.titulo{
+    position:absolute;
+    left:20%;
+    top:10%;
+    width:10%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo span{
+    font-family: fantasy;
+    font-size: 3vw;
+    text-size-adjust: auto;
+    color: rgb(238, 67, 67);
+}
+
+.logo2{
+    position:absolute;
+    left:30%;
+    top:10%;
+    width:10%;
+    height:80%;
+}
+
+.menu{
+    position:relative;
+    height:50px;
+    background-color: rgb(238, 67, 67);
+    display: flex;
+    justify-content: center;
+}
+
+.menu table{
+    width: 40%;
+    text-align: center;
+}
+
+.menu table tr td a{
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+.menu table tr td a:hover{
+    color: rgb(75, 75, 246);
+}
+
+.main{
+    position: relative;
+    top: 0;
+    left: 10%;
+    background-color: white;
+    width:80%;
+    height:400px;
+}
+
+.conteudo{
+    position: absolute;
+    width:80%;
+    height: auto;
+    top:20px;
+    left:10%;
+}
+
+.conteudo p{
+    text-align: justify;
+}
+
+.footer{
+    position:relative;
+    background-color: rgb(33, 33, 33);
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    height:100px;
+    color: azure;
+    top: 0;
+    left: 0;
+}

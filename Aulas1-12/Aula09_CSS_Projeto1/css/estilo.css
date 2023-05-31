@@ -1,0 +1,94 @@
+/* Define a cor de fundo do corpo para um gradiente linear do cinza escuro para o cinza claro */
+body{
+    background: linear-gradient(to right, rgb(27, 26, 26),rgb(84, 79, 79),rgb(27, 26, 26));
+    
+    /* Define a cor do texto como branco */
+    color:rgb(255, 255, 255);
+    
+    /* Define a margem e o preenchimento do body como zero (cola acima e à esquerda da tela). */
+    margin:0;
+    padding:0;
+    
+    /* Centraliza os textos dentro do body */
+    text-align: center;
+    
+    /* Define a fonte como Helvetica */
+    font-family: Helvetica;
+}
+
+
+header{
+    display: flex; /* Define os elementos como flexíveis (coloca os elementaos lado a lado)*/
+    justify-content: space-around; /* justifica os lementos com espaço entre eles utilizando as extremidades */
+    justify-content: space-between; /* justifica os lementos com espaço entre eles sem utilizar as extremidades (mais centralizados) */
+    padding: 1.5%; /* preenchimento entre as bordas e o conteúdo*/
+    border-bottom: 1px solid white; /* Define borda inferior para o cabeçalho */
+    align-items: center; /* alinha os elementos verticalmente */
+}
+
+/* Define o estilo da lista não ordenada dentro do cabeçalho */
+header ul{
+    list-style: none; /* Exclui itens / numerão / bolinhas da lista */
+    display:flex; /* Define os elementos como flexíveis (coloca os elementaos lado a lado)*/
+}
+
+/* Define o estilo dos itens da lista dentro do cabeçalho, com margem à direita e tamanho de fonte de 20 pixels */
+header ul li{
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+/* Define o estilo do link dentro dos itens da lista do cabeçalho, sem decoração de texto e cor branca */
+header ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Define o estilo do link dentro dos itens da lista do cabeçalho quando o mouse está em cima dele, com cor azul claro */
+header ul li a:hover{
+    color: rgb(0, 149, 255);
+}
+
+/* Define o estilo da imagem dentro do elemento principal, com uma borda de 2 pixels na cor azul claro e bordas arredondadas */
+main img{
+    border:2px solid rgb(0, 149, 255);
+    border-radius: 50%;
+}
+
+/* Define o estilo da section, com uma largura de 50% e margem automática para centralização */
+section{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Define o estilo da classe "p1", com um fundo marrom */
+.p1{
+    background-color: brown;
+}
+
+/* Define o estilo da classe "p2", com um fundo amarelo */
+.p2{
+    background-color: yellow;
+}
+
+/* Define o estilo do rodapé, com fundo preto, preenchimento de 20 pixels, borda superior e margem superior */
+footer{
+    background-color:black;
+    padding:20px;
+    border-top: 1px solid white;
+    margin-top:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
